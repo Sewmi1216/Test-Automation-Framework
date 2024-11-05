@@ -1,0 +1,52 @@
+2024-11-05 22:31:38 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Gift
+2024-11-05 22:31:48 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Gift
+2024-11-05 22:31:48 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Cake
+2024-11-05 22:31:55 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Cake
+2024-11-05 22:31:55 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Chocolate
+2024-11-05 22:32:00 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Chocolate
+2024-11-05 22:32:00 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Flower
+2024-11-05 22:32:10 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Flower
+2024-11-05 22:42:12 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Gift
+2024-11-05 22:42:22 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Gift
+2024-11-05 22:42:22 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Cake
+2024-11-05 22:42:27 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Cake
+2024-11-05 22:42:27 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Chocolate
+2024-11-05 22:42:32 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Chocolate
+2024-11-05 22:42:32 [main] INFO  page_object_model.tests.KaprukaTest - Starting test for search item: Flower
+2024-11-05 22:42:37 [main] INFO  page_object_model.tests.KaprukaTest - Test completed successfully for search item: Flower
+2024-11-05 23:44:58 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-05 23:44:58 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-05 23:52:06 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-05 23:52:06 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-05 23:52:10 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 3
+2024-11-05 23:52:40 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-05 23:52:41 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-05 23:52:44 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 3
+2024-11-05 23:58:50 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-05 23:59:17 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:06:23 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:08:41 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+
+
+
+
+2024-11-06 00:10:01 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:10:02 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-06 00:10:44 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:10:46 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-06 00:19:06 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:19:06 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-06 00:19:09 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 3
+2024-11-06 00:19:11 [main] INFO  page_object_model.tests.KaprukaTest - clicked Women
+2024-11-06 00:19:43 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 1
+2024-11-06 00:19:43 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 2
+2024-11-06 00:19:45 [main] INFO  page_object_model.tests.KaprukaTest - Test completed 3
+2024-11-06 00:19:47 [main] INFO  page_object_model.tests.KaprukaTest - clicked Women
+2024-11-06 00:26:46 [main] INFO  page_object_model.tests.KaprukaTest - Clicked Flower Page
+2024-11-06 00:26:48 [main] INFO  page_object_model.tests.KaprukaTest - Clicked Birthday Flowers
+2024-11-06 00:28:35 [main] INFO  page_object_model.tests.KaprukaTest - Clicked Flower Page
+2024-11-06 00:28:37 [main] INFO  page_object_model.tests.KaprukaTest - Clicked Birthday Flowers
+2024-11-06 00:34:59 [main] INFO  page_object_model.tests.KaprukaTest - Clicked order status
+2024-11-06 00:46:55 [main] INFO  page_object_model.tests.KaprukaTest - Clicked order status
+2024-11-06 00:46:59 [main] INFO  page_object_model.tests.KaprukaTest - Clicked order status
+2024-11-06 00:47:03 [main] INFO  page_object_model.tests.KaprukaTest - Clicked order status
