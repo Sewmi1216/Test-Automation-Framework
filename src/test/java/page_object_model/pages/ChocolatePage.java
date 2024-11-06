@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ChocolatePage extends BasePage{
+public class ChocolatePage extends BasePage {
 
     public ChocolatePage(WebDriver driver) {
         super(driver);

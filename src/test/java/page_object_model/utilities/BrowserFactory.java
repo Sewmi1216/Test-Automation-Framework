@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 public class BrowserFactory {
     static BrowserFactory browserFactory;
 
-    ThreadLocal<WebDriver> threadLocal = ThreadLocal.withInitial(()->{
-        WebDriver webDriver= null;
+    ThreadLocal<WebDriver> threadLocal = ThreadLocal.withInitial(() -> {
+        WebDriver webDriver = null;
         String browserType = System.getProperty("browser", "chrome");
-        switch(browserType){
+        switch (browserType) {
             case "chrome":
                 webDriver = WebDriverManager.chromedriver().create();
                 break;
@@ -25,16 +25,18 @@ public class BrowserFactory {
         webDriver.manage().window().maximize();
         return webDriver;
     });
-    private BrowserFactory() {}
 
-    public static BrowserFactory getBrowserFactoryMethod(){
-        if(browserFactory == null){
+    private BrowserFactory() {
+    }
+
+    public static BrowserFactory getBrowserFactoryMethod() {
+        if (browserFactory == null) {
             browserFactory = new BrowserFactory();
         }
         return browserFactory;
     }
 
-    public WebDriver getDriver(){
+    public WebDriver getDriver() {
         return threadLocal.get();
     }
 
