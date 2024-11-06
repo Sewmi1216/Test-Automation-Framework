@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Documents/GitHub/Test-Automation-Framework">
+        <classes>
+            <class name="page_object_model.tests.KaprukaTest">
+                <methods>
+                    <include name="searchByItem"/>
+                    <include name="searchChocolates"/>
+                    <include name="searchComboGiftPacks"/>
+                    <include name="searchFlowers"/>
+                    <include name="checkOrderStatus"/>
+                    <include name="searchFoods"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
