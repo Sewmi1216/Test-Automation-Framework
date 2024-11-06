@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends BasePage {
 
@@ -29,6 +28,9 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//span[text()='Flower Shop']")
     public WebElement selectFlowerShop;
 
+    @FindBy(xpath = "//span[text()='Food / Restaurants']")
+    public WebElement selectFood;
+
     @FindBy(xpath = "//a[@aria-label='Check Order Status']")
     public WebElement selectOrderStatus;
 
@@ -40,6 +42,9 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//div[@class='CatalogueV2Design']")
     private WebElement searchResultsContainer;
+
+    @FindBy(xpath = "//div[@class='food_content_set']")
+    private WebElement foodContainer;
 
     public void typeTextToSearchBar(String searchText) {
         logger.info("Typing text into the search bar: " + searchText);
@@ -79,7 +84,11 @@ public class HomePage extends BasePage {
         selectOrderStatus.click();
         return PageFactory.initElements(driver, OrderStatusPage.class);
     }
-
+    public FoodPage clickFoods() {
+        logger.info("Navigating to 'Foods' page.");
+        selectFood.click();
+        return PageFactory.initElements(driver, FoodPage.class);
+    }
     public boolean isSearchResultDisplayed(String searchItem) {
         try {
             logger.info("Verifying if search results are displayed for: " + searchItem);
@@ -95,6 +104,14 @@ public class HomePage extends BasePage {
             return searchResultsContainer.isDisplayed();
         } catch (Exception e) {
             logger.error("Error verifying category data", e);
+            return false;
+        }
+    }
+    public boolean isFoodDisplayed() {
+        try {
+            return foodContainer.isDisplayed();
+        } catch (Exception e) {
+            logger.error("Error verifying food data", e);
             return false;
         }
     }
