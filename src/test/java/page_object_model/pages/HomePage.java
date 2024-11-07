@@ -2,11 +2,16 @@ package page_object_model.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HomePage extends BasePage {
 
@@ -62,18 +67,24 @@ public class HomePage extends BasePage {
     }
 
     public ComboGiftPackPage clickComboGiftPacks() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(selectComboGiftPacks));
         logger.info("Navigating to 'Combo Gift Packs' page.");
         selectComboGiftPacks.click();
         return PageFactory.initElements(driver, ComboGiftPackPage.class);
     }
 
     public ChocolatePage clickKaprukaChocolates() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(selectKaprukaChocolates));
         logger.info("Navigating to 'Kapruka Chocolates' page.");
         selectKaprukaChocolates.click();
         return PageFactory.initElements(driver, ChocolatePage.class);
     }
 
     public FlowerPage clickFlowerShop() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(selectFlowerShop));
         logger.info("Navigating to 'Flower Shop' page.");
         selectFlowerShop.click();
         return PageFactory.initElements(driver, FlowerPage.class);

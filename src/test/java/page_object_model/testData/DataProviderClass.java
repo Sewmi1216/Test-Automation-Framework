@@ -9,13 +9,13 @@ public class DataProviderClass {
 
     @DataProvider(name = "searchData")
     public static Object[][] searchData() throws IOException {
-        return ExcelUtils.getTestData("C:\\Users\\user\\Documents\\testData.xlsx", "TestData");
+        return ExcelUtils.getTestData("C:\\Users\\user\\Documents\\GitHub\\Test-Automation-Framework\\src\\test\\resources\\testData.xlsx", "TestData");
     }
 
     @DataProvider(name = "SearchRefNo")
     public static Object[][] SearchRefNo() throws IOException {
 
-        Object[][] data = ExcelUtils.getOrderReference("C:\\Users\\user\\Documents\\testData.xlsx", "OrderReference");
+        Object[][] data = ExcelUtils.getOrderReference("C:\\Users\\user\\Documents\\GitHub\\Test-Automation-Framework\\src\\test\\resources\\testData.xlsx", "OrderReference");
 
         for (int i = 0; i < data.length; i++) {
             data[i][0] = data[i][0].toString();

@@ -10,7 +10,7 @@ public class ComboGiftPackPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//a[@title='Shop For Choco Gift b(45)b']")
+    @FindBy(xpath = "//a[@title='Shop For Choco Gift b(51)b']")
     public WebElement selectChocoGift;
 
     public void clickChocoGift() {
